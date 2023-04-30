@@ -6,11 +6,17 @@
     font-family: 'Outfit', sans-serif;
     letter-spacing: 0.1rem;
 }
+body{
+    display: flex;
+    flex-direction: column;
+}
 .header-1{
     display: flex;
     justify-content: space-between;
     background-color: #718FFB;
     align-items: center;
+    padding: 0 4rem;
+    font-weight: 600;
 }
 .header-1 .name{
     display: inline-block;
@@ -90,12 +96,33 @@
 .login-form a{
     text-decoration: none;
     transition: 0.3s;
+    color: blue;
 }
 .login-form a:hover{
     color: black;
 }
 .login-form .forget-password {
     align-self: self-start;
+}
+.footer{
+    background-color: #D1C0FF;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem 5rem;
+    align-items: center;
+    font-weight: 600;
+}
+.footer a{
+    text-decoration: none;
+    color: blue;
+    transition: 0.3s;
+}
+.footer .social-media img {
+    width: 2rem;
+    height: auto;
+}
+.footer a:hover{
+    color: rebeccapurple;
 }
 @media only screen and (max-width: 500px){
     .main-1{
