@@ -134,4 +134,11 @@ body{
     .main-1 .login-form{
         width: 30rem;
     }
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .header-1{
+        flex-direction: column;
+    }
 }
