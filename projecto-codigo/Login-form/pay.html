@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagar</title>
+</head>
+<body>
+    <header class="header-1">
+        <h1 class="name">Blog</h1>
+        <nav>
+          <ul class="bar1">
+            <li><a href="">Bio</a></li>
+            <li><a href="">Psico</a></li>
+            <li><a href="">Espiritual</a></li>
+            <li><a href="">Faq</a></li>
+            <li><a href="">Precios</a></li>
+            <li>
+              <img
+                src="https://www.pikpng.com/pngl/b/283-2837538_login-icon-line-icons-iconscout-login-icon-images.png"
+                alt="login-icon" class="login-icon"
+              /><a href="">Iniciar Sesion</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main-2">
+        <form action="" class="pay-form">
+                <label for="email">Correo Electronico</label>
+                <input type="email" name="email" id="email" required>
+                <label for="card">Numero de tarjeta</label>
+                <input type="number" name="card" id="card" required pattern="[0-9]{13,16}">
+                <label for="cci">CCI</label>
+                <input type="number" name="cci" id="cci" pattern="{1,3}" required>
+                <div class="subbox">
+                <label for="">Fecha de Vencimiento</label>
+                <div class="subbox-1">
+                <label for="month" min >Mes</label>
+                <select name="month" id="month">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                </select>
+                <label for="year">Año</label>
+                <input type="number" id="year" required max>
+                </div>
+                <div class="subbox-2">
+                <label for="country">Pais</label>
+                <input type="text" id="country" required>
+                <label for="phone">Celular</label>
+                <input type="tel" pattern="{1,9}" id="phone" required>
+                </div>
+                </div>
+                <button type="submit">Pagar</button>
+            </form>
+      </main>
+      <footer class="footer">
+        <div class="contact">
+        <p>Telf: 123456789</p>
+        <p>Cel: 987654321</p>
+        </div>
+      <div class="comtact-2">
+        <p>Email: correo@gmail.com</p>
+        <a href="">Trabaja con nosotros</a>
+        </div>
+        <div class="social-media">
+        <a href="https://twitter.com/" target="_blank"> <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-512.png" alt="Twitter"></a>
+        <a href="https://www.youtube.com/" target="_blank"> <img src="https://creazilla-store.fra1.digitaloceanspaces.com/icons/3233597/youtube-icon-md.png" alt="Youtube"></a>
+        <a href="https://www.facebook.com/" target="_blank"> <img src="https://cdn3.iconfinder.com/data/icons/picons-social/57/46-facebook-512.png" alt="Facebook"></a>
+        <a href="https://www.instagram.com/" target="_blank"> <img src="https://www.svgrepo.com/show/364604/instagram-logo-fill.svg" alt="Instagram"></a>
+        </div>
+      </footer>
+</body>
+</html>
